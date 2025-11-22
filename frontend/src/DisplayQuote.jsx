@@ -4,7 +4,7 @@ export function DisplayQuote({ quote }){
 
     return(
         <div className = "quote-cont">
-            <p className = "quote-message">"{quote.message}"</p>
+            <p className = "quote-message">{quote.message}</p>
             <div className="quote-details">
                 <span className="quote-author">{quote.name}</span>
                 <span className="quote-time">{formatDate}</span>

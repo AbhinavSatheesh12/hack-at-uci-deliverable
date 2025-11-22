@@ -41,11 +41,14 @@ function App() {
 
 	return (
 		<div className="App">
-			<img
-				src={logo}
-				alt="Quote Book Logo"
-				width="90"
-			/>
+			<div>
+				<img
+					className="logo"
+					src={logo}
+					alt="Quote Book Logo"
+					width="90"
+				/>
+			</div>
 			<h1>Hack at UCI Tech Deliverable</h1>
 			<div className="form-submission">
 				<h2>Submit a quote</h2>
