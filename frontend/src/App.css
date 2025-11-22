@@ -1,0 +1,28 @@
+.quote-cont {
+    background-color: rgba(245, 245, 220, 0.65);
+    border-left: 5px solid #0064A4;
+    border-right: 5px solid #0064A4;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+.quote-message {
+    font-size: 19px;
+    margin: 0 0 10px 0;
+    font-style: italic;
+}
+
+.quote-details {
+    display: flex;
+    justify-content: space-between;
+    color: #6c6c6c;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(126, 126, 126, 0.54);
+}
+
+.quote-author {
+    font-weight: bold;
+}

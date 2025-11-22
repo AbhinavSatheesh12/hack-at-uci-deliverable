@@ -50,6 +50,9 @@ def post_message(name: str = Form(), message: str = Form()) -> RedirectResponse:
 # TODO: add another API route with a query parameter to retrieve quotes based on max age
 @app.get("/quote")
 def retrieve_quotes(max_age: str = "all") -> list[Quote]:
+    """
+    Returns a list of quotes based on dates wanted
+    """
     quotes = database["quotes"]
     time_map = {"week": timedelta(days = 7), "month": timedelta(days = 30), "year": timedelta(days = 365)}
 

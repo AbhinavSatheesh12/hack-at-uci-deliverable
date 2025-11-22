@@ -1,6 +1,7 @@
 import "./App.css";
 import {useEffect, useState} from "react";
 import {DisplayQuote} from "./DisplayQuote.jsx";
+import logo from "./quotebook.png";
 
 function App() {
 	const [quotes, setQs] = useState([]);
@@ -40,7 +41,11 @@ function App() {
 
 	return (
 		<div className="App">
-			{/* TODO: include an icon for the quote book */}
+			<img
+				src={logo}
+				alt="Quote Book Logo"
+				width="90"
+			/>
 			<h1>Hack at UCI Tech Deliverable</h1>
 			<div className="form-submission">
 				<h2>Submit a quote</h2>
